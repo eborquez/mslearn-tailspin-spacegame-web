@@ -16,5 +16,12 @@
   <ItemGroup>
     <PackageReference Include="Tailspin.SpaceGame.Web.Models" Version="1.0.0-CI-20200313-170344" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <packageSources>
+      <clear />
+      <add key="TailspinSpaceGameWebModels" value="https://pkgs.dev.azure.com/eborquez/a1607fef-4d87-4491-9661-19c803441f02/_packaging/TailspinSpaceGameWebModels/nuget/v3/index.json" />
+  </packageSources>
+  </ItemGroup>
 
 </Project>
