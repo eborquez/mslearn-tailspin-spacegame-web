@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ProjectGuid>{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}</ProjectGuid>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
@@ -12,6 +12,11 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\avatars\" />
   </ItemGroup>
+
+  <packageSources>
+    <clear />
+    <add key="TailspinSpaceGameWebModels" value="https://pkgs.dev.azure.com/eborquez/a1607fef-4d87-4491-9661-19c803441f02/_packaging/TailspinSpaceGameWebModels/nuget/v3/index.json" />
+  </packageSources>
 
   <ItemGroup>
     <PackageReference Include="Tailspin.SpaceGame.Web.Models" Version="1.0.0-CI-20200313-170344" />
