@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
-    <add key="TailspinSpaceGameWebModels" value="https://pkgs.dev.azure.com/eborquez/a1607fef-4d87-4491-9661-19c803441f02/_packaging/TailspinSpaceGameWebModels/nuget/v3/index.json" />
+    <add key="TailspinSpaceGameWebModels" value="https://pkgs.dev.azure.com/eborquez/a1607fef-4d87-4491-9661-19c803441f02/_packaging/TailspinSpaceGameWebModels/nuget/v2/index.json" />
   </ItemGroup>
 
   <PropertyGroup>
